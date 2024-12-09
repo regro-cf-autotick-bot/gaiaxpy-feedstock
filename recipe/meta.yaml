@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.8
     - aenum
-    - astropy
+    - astropy-base
     - astroquery
     - fastavro
     - python-hdfs
