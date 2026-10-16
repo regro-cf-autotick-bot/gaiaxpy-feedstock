@@ -1,13 +1,13 @@
 {% set name = "gaiaxpy" %}
-{% set version = "2.1.2" %}
+{% set version = "2.1.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gaiaxpy-{{ version }}.tar.gz
-  sha256: e61f418e391ab340cad098f56575d835c404ae8ca6f5c9f714fd62cebd943a0c
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/gaiaxpy-{{ version }}.tar.gz
+  sha256: 5f200e3973617c5316492ecb388c63091e89a5bda8835e2ab0a1aacf6735868b
 
 build:
   noarch: python
